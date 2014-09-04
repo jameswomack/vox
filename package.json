@@ -1,0 +1,21 @@
+{
+  "name": "vox",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "keywords": ["tts","speech","html"],
+  "main": "js/index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jameswomack/vox"
+  },
+  "scripts": {
+    "start": "beefy --live --index=html/index.html js/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James J. Womack",
+  "license": "ISC",
+  "dependencies": {
+    "beefy": "~2.0.1",
+    "browserify": "~4.1.10"
+  }
+}
